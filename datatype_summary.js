@@ -23,7 +23,7 @@ console.log(id === anotherId);
 const bigNumber = 65469845313657656565n;
 
 const heros = ["Shaktiman", "naagraj", "doga"];  // this is array
-let myObje = {  // this is object
+let myObje = {  // this is object 
     name :"Yogesh",
     age : 22
 }
