@@ -21,7 +21,7 @@ console.log(myTimeStamp);
 console.log(myCreatedDate.getTime());
 console.log(Math.floor(Date.now()/1000));  // converting into miliseconds to second so divide it by 1000
 
-// ************************************** NEW METHODS OF DATE IN JAVASCRIPT  *********************
+// ************************************** NEW METHODS OF DATE IN JAVASCRIPT  **********************
 
 let newDateabc = new Date();
 console.log(newDateabc);;
