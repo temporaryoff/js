@@ -1,5 +1,5 @@
 // object lihinyache don prakar aahet a) literal paddath   b) constructor paddath c) there is a may a third type which is singleton => singleton mahanje jevan construnctor madhun ek object tayar  hoto teva tyala singleton ase mahantat.
-
+// in this file we are going to learn object literal and all below examples is of literal example
 // const Jsuser = {}  // curly braces are shows this is oobject. thats simple
 const mySym = Symbol("key1") // ask for interview question Most IMP
 const Jsuser = {
