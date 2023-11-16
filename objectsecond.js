@@ -52,3 +52,27 @@ console.log(Object.entries(tinderUser2)); // key ani value la array madhe tayar 
 
 console.log(tinderUser2.hasOwnProperty('isLoggedIn'));  // object la isLoggedIn hee property ahe ka nahi te vicharane
 
+//***************** NEXT VIDEO IS CONTNUE FROM VIDEO NO 17 */
+//******************** THIS IS START OF VIDEO NO. 18 */
+// de-structring he array chi ani object chi pan aste he api la jast useful aahe.
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+
+course.courseInstructor // this is commonly used method to call object elements
+const {courseInstructor} = course // course object madhun de-structor karun courseInstructor baher kadun variable madhe store kele
+console.log(courseInstructor);
+
+const {courseInstructor : instructor} = course // de-structor the object and change it variable name
+console.log(instructor);
+
+// ARRAY LA RARLY DE-STRUCTRING KELE JATE
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
